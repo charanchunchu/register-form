@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>wellcome page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="google">
+            <h1>GOOGLE</h1>
+        </div>
+        <div class="regform">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="main">
+            <form action="results.html" method="GET">
+                <div id="name">
+                    <h2 class="name">FirstName</h2>
+                    <input id="firstname" class="firstname" type="text" name="first_name"><br>
+                </div>
+                <h2 class="name">LastName</h2>
+                <input class="lastname" type="text" name="last_name">
+                <h2 class="name">company</h2>
+                <input class="company" type="text" name="company">
+                <h2 class="name">Email</h2>
+                <input class="email" type="email" name="email">
+                <h2 class="name">phone</h2>
+                <input class="code" type="text" name="area_code">
+                <input class="number" type="tell" name="phone">
+                <h2 class="name">gender</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">--choose option</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>cant say</option>
+                </select>
+                <h2 class="name">Are you beginner</h2>
+                <select class="option" name="subject">
+                    <option disabled="disabled" selected="selected">--choose option</option>
+                    <option>YES</option>
+                    <option>NO</option>
+                </select>
+                <button type="submit" onclick="getValues()" style="height: 25px; width:100px">Register</button><br>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
